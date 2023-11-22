@@ -1,0 +1,19 @@
+{
+  "name": "mp9_tailwind2_basicstyling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "chokidar-cli": "^3.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}

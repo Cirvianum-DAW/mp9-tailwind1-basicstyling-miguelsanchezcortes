@@ -3,31 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind Showcase</title>
+    <title><b>Tailwind Showcase</b></title>
     <link rel="stylesheet" href="../dist/styles.css">
   </head>
   <body>
     <div class="container mx-auto py-8">
-      <h1>Tailwind Showcase</h1>
-      <div class="bg-slate-50	background-color: rgb(241 245 249);">
-        <h2>Colors and Backgrounds</h2>
-        <div>
-          <div class="bg-stone-100	background-color: rgb(245 245 244),">.</div>
-          <div class="bg-red-400	background-color: rgb(248 113 113)">.</div>
-          <div class="bg-amber-300	background-color: rgb(252 211 77)">.</div>
-          <div class="bg-lime-200	background-color: rgb(217 249 157)">.</div>
+      <h1 class="text-2xl"><b>Tailwind Showcase</b></h1>
+      <div class="bg-slate-50	background-color: rgb(241 245 249) p-4">
+        <h2><b>Colors and Backgrounds</b></h2>
+        <div class="flex">
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 bg-stone-50"></div>
+          <div class="border-solit border-2 border-red-500 flex-grow h-20 bg-red-200"></div>
+          <div class="border-solit border-2 border-yellow-500 flex-grow h-20 bg-amber-100"></div>
+          <div class="border-solit border-2 border-green-500 flex-grow h-20 bg-green-100"></div>
+        </div>
+        <br>
+        <div class="flex">
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 bg-slate-50"></div>
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 bg-slate-100"></div>
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 bg-slate-200"></div>
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 bg-slate-500"></div>
         </div>
       </div>
-      <div class="bg-slate-50	background-color: rgb(241 245 249);">
-        <div>
-          <div class="bg-slate-50">.</div>
-          <div class="bg-slate-100">.</div>
-          <div class="bg-slate-200">.</div>
-          <div class="bg-slate-500">.</div>
-        </div>
-      </div>
-      <div class="bg-slate-50	background-color: rgb(241 245 249);">
-        <h2 class="text-black">Text</h2>
+      <br>
+      <div class="bg-slate-50	background-color: rgb(241 245 249) p-3">
+        <h2 class="text-black"><b>Text</b></h2>
         <p class="text-sm">This is a small text.</p>
         <p class="text-base">This is a base text.</p>
         <p class="text-lg">This is a large text.</p>
@@ -36,81 +36,91 @@
         <p class="text-4xl">This is a 4x extra large text.</p>
         <p class="text-5xl">This is a 5x extra large text.</p>
         <p class="text-8xl">This is a 8x extra large text.</p>
-        <p class="text-9xl">This is a 9x extra large text.</p>
+        <p class="text-9xl">This is a 9x extra large <br> text.</p>
       </div>
-      <div class="bg-slate-50	background-color: rgb(241 245 249);">
-        <h2>Text Decoration</h2>
+      <br>
+      <div class="bg-slate-50	background-color: rgb(241 245 249) p-3">
+        <h2><b>Text Decoration</b></h2>
         <p class="underline">This is an underlined text.</p>
         <p class="line-through">This is a line-through text.</p>
         <p class="underline, line-through">This is an underlined and line-through text.</p>
       </div>
-      <div class="bg-slate-50	background-color: rgb(241 245 249);">
-        <h2>Text Alignment</h2>
+      <br>
+      <div class="bg-slate-50	background-color: rgb(241 245 249) p-3">
+        <h2><b>Text Alignment</b></h2>
         <p class="text-left">This is a left-aligned text.</p>
         <p class="text-center">This is a center-aligned text.</p>
         <p class="text-right">This is a right-aligned text.</p>
       </div>
-      <div class="bg-slate-50	background-color: rgb(241 245 249);">
-        <h2>Sizes</h2>
-        <div>
-          <div class="text-xs border-slate-400	border-color: rgb(148 163 184), bg-slate-50">XS</div>
-          <div class="text-sm border-slate-400	border-color: rgb(148 163 184), bg-slate-100">SM</div>
-          <div class="text-base border-slate-400	border-color: rgb(148 163 184), bg-slate-200">BASE</div>
-          <div class="text-lg border-slate-400	border-color: rgb(148 163 184), bg-slate-500">LG</div>
+      <br>
+      <div class="bg-slate-50	background-color: rgb(241 245 249) p-3">
+        <h2><b>Sizes</b></h2>
+        <div class="flex">
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 text-center text-xs border-slate-400 bg-slate-50 flex items-center justify-center">XS</div>
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 text-center text-sm border-slate-400 bg-slate-100 flex items-center justify-center">SM</div>
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 text-center text-base border-slate-400 bg-slate-200 flex items-center justify-center">BASE</div>
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 text-center text-lg border-slate-400 bg-slate-500 flex items-center justify-center">LG</div>
         </div>
       </div>
-      <div class="bg-slate-50	background-color: rgb(241 245 249);">
-        <h2>Borders</h2>
-        <div>
-          <div class="bg-slate-50"></div>
-          <div class="bg-slate-100"></div>
-          <div class="bg-slate-200"></div>
-          <div class="bg-slate-500"></div>
+      <br>
+      <div class="bg-slate-50	background-color: rgb(241 245 249) p-3">
+        <h2><b>Borders</b></h2>
+        <div class="flex">
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 bg-slate-50"></div>
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 rounded bg-slate-100"></div>
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 rounded-md bg-slate-200"></div>
+          <div class="border-solit border-2 border-slate-500 flex-grow h-20 rounded-full bg-slate-500"></div>
         </div>
       </div>
+      <br>
       <div>
-        <div class="bg-slate-50	background-color: rgb(241 245 249);">
-          <h2>Margin</h2>
-          <div class="bg-slate-100 m-1.5rem">This div has a margin 1.5rem on all sides.</div>
-          <div class="bg-slate-200 mx-1.5rem, my-3rem">This div has a horizontal margin of 1.5rem and a vertical margin of 3rem</div>
-          <div class="bg-slate-500 mt-1rem, mr-2rem, mb-3rem,ml-4rem">This div has a margin of 1rem on the top, 2rem on the right,3rem on the bottonm, and 4rem on the left.</div>
+        <div class="bg-slate-50	background-color: rgb(241 245 249) p-3">
+          <h2><b>Margin</b></h2>
+          <div class="border-solit border-2 border-slate-500 bg-slate-100 m-[1.5rem]"><p>This div has a margin 1.5rem on all sides.</p></div>
+          <div class="border-solit border-2 border-slate-500 bg-slate-200 mx-[1.5rem] my-[3rem]"><p>This div has a horizontal margin of 1.5rem and a vertical margin of 3rem</p></div>
+          <div class="border-solit border-2 border-slate-500 bg-slate-500 mt-[1rem] mr-[2rem] mb-[3rem] ml-[4rem]"><p>This div has a margin of 1rem on the top, 2rem on the right,3rem on the bottonm, and 4rem on the left.</p></div>
         </div>
-        <div class="bg-slate-100	background-color: rgb(241 245 249);">
-          <h2>Padding</h2>
-          <div class="bg-slate-100"></div>
-          <div class="bg-slate-200"></div>
-          <div class="bg-slate-500"></div>
+        <br>
+        <div class="bg-slate-50	background-color: rgb(241 245 249) p-3">
+          <h2><b>Padding</b></h2>
+          <div class="border-solit border-2 border-slate-500 bg-slate-100 p-[1.5rem]"><p class="">This div has a padding of 1.5rem on all sides.</p></div>
+          <div class="border-solit border-2 border-slate-500 bg-slate-200 px-[1.5rem] py-[3rem]"><p>This div has a horizontal of 1.5rem and a vertical padding of 3rem.</p></div>
+          <div class="border-solit border-2 border-slate-500 bg-slate-500 pt-[1rem] pr-[2rem] pb-[3rem] pl-[4rem]"><p>This div has a padding of 1rem on the top, 2rem on the right, 3rem on the bottom, <br> and 4rem on the left.</p></div>
         </div>
-        <div class="bg-slate-100	background-color: rgb(241 245 249);">
-          <h2>Card 1</h2>
-          <div>
-            <img
+        <div class="bg-slate-50	background-color: rgb(241 245 249) p-3">
+          <br>
+          <h2><b>Card 1</b></h2>
+          <div class="border-solit border-2 p-6 border-slate-400 rounded">
+            <img class="rounded-md m-4"
               src="https://via.placeholder.com/300x200"
               alt="Placeholder image"
             />
-            <h3>Card Title</h3>
-            <p>This is a basic card example with an image and no flex.</p>
-            <a href="#">Button</a>
+            <h3 class="p-2"><b>Card Title</b></h3>
+            <p class="p-1">This is a basic card example with an image and no flex.</p>
+            <br>
+            <a class="bg-blue-600 rounded-md text-white p-2" href="#"><b>Button</b></a>
           </div>
         </div>
-        <div>
-          <h2>Card 2</h2>
-          <div>
-            <h3>Card Title</h3>
-            <p>This is a basic card example with no image and no flex.</p>
-            <ul>
+        <div class="bg-slate-50 p-2	background-color: rgb(241 245 249)">
+          <br>
+          <h2><b>Card 2</b></h2>
+          <div class="border-solit border-2 p-6 border-slate-400 rounded">
+            <h3 class="p-3"><b>Card Title</b></h3>
+            <p class="p-2">This is a basic card example with no image and no flex.</p>
+            <ul class="list-disc pl-7 mb-4">
               <li>Item 1</li>
               <li>Item 2</li>
               <li>Item 3</li>
             </ul>
-            <a href="#">Button</a>
+            <a class="bg-blue-600 rounded-md text-white p-2" href="#"><b>Button</b></a>
           </div>
         </div>
-        <div>
-          <h2>Buttons</h2>
-          <button>Button 1</button>
-          <button>Button 2</button>
-          <button>Button 3</button>
+        <br>
+        <div class="bg-slate-50	background-color: rgb(241 245 249) p-4">
+          <h2 class="pb-2"><b>Buttons</b></h2>
+          <button class="bg-blue-600 rounded text-white p-2"><b>Button 1</b></button>
+          <button class="bg-green-500 rounded-full text-white p-2"><b>Button 2</b></button>
+          <button class="bg-red-600 rounded-md text-white p-2"><b>Button 3</b></button>
         </div>
       </div>
     </div>
